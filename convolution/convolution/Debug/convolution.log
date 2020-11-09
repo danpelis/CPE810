@@ -1,0 +1,23 @@
+﻿  Compiling CUDA source file ..\convolution.cu...
+  
+  C:\Users\Dan\source\repos\convolution\convolution>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\convolution.cu.obj "C:\Users\Dan\source\repos\convolution\convolution.cu" 
+C:/Users/Dan/source/repos/convolution/convolution.cu(162): warning : variable "current_val" was set but never used
+  
+C:/Users/Dan/source/repos/convolution/convolution.cu(193): warning : variable "current_val" was set but never used
+  
+C:/Users/Dan/source/repos/convolution/convolution.cu(197): warning : variable "end_point" was set but never used
+  
+C:/Users/Dan/source/repos/convolution/convolution.cu(382): warning : variable "CPUmsec" was declared but never referenced
+  
+C:/Users/Dan/source/repos/convolution/convolution.cu(289): warning : variable "mem_mask_size" was declared but never referenced
+  
+  convolution.cu
+C:/Users/Dan/source/repos/convolution/convolution.cu(245): warning C4018: '<': signed/unsigned mismatch
+C:/Users/Dan/source/repos/convolution/convolution.cu(272): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/Dan/source/repos/convolution/convolution.cu(274): warning C4018: '<': signed/unsigned mismatch
+C:/Users/Dan/source/repos/convolution/convolution.cu(280): warning C4018: '<': signed/unsigned mismatch
+C:/Users/Dan/source/repos/convolution/convolution.cu(355): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/Users/Dan/source/repos/convolution/convolution.cu(368): warning C4018: '<': signed/unsigned mismatch
+C:/Users/Dan/source/repos/convolution/convolution.cu(393): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/Users/Dan/source/repos/convolution/convolution.cu(401): warning C4018: '<': signed/unsigned mismatch
+  convolution.vcxproj -> C:\Users\Dan\source\repos\convolution\Debug\convolution.exe
