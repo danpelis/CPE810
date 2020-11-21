@@ -1,0 +1,10 @@
+﻿  Compiling CUDA source file ..\scan.cu...
+  
+  C:\Users\Dan\source\repos\list_scan\list_scan>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x86" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -Xcompiler "/EHsc /W3 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o Debug\scan.cu.obj "C:\Users\Dan\source\repos\list_scan\scan.cu" 
+  scan.cu
+C:/Users/Dan/source/repos/list_scan/scan.cu(146): warning C4018: '<': signed/unsigned mismatch
+C:/Users/Dan/source/repos/list_scan/scan.cu(162): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:/Users/Dan/source/repos/list_scan/scan.cu(188): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:/Users/Dan/source/repos/list_scan/scan.cu(236): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:/Users/Dan/source/repos/list_scan/scan.cu(237): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  list_scan.vcxproj -> C:\Users\Dan\source\repos\list_scan\Debug\list_scan.exe
